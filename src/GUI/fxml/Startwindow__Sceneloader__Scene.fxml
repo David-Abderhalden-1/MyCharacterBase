@@ -1,0 +1,10 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="Controller.MyCharacterBasePersonchoiceSceneController" alignment="center" spacing="20"
+      stylesheets="/GUI/css/Startwindow__Sceneloader__Scene.css">
+
+    <Button fx:id="AddPersonButton" onAction="#add_person">Add Person</Button>
+    <Button fx:id="SearchPersonButton" onAction="#search_person">Load Person</Button>
+    <Button fx:id="BackToMainButton" onAction="#back_to_main">Back</Button>
+</VBox>

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Quicksand SemiBold';
+    src: url('fonts/Quicksand_SemiBold.ttf');
+}
+
+.root{
+    -fx-background-color: #383838;
+    -fx-font-family: 'Quicksand SemiBold', sans-serif, bold;
+    -fx-font-size: 14px;
+}
+
+.label{
+    -fx-text-fill: #ffff;
+}
+
+.button{
+    -fx-pref-width: 140px;
+    -fx-pref-height: 35px;
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+    -fx-background-color: #ffc788;
+    -fx-border-color: #222222;
+    -fx-border-width: 1px;
+    -fx-background-insets: 0;
+}
+
+.button:hover{
+    -fx-border-color: #222222;
+    -fx-background-color: #ffab4b;
+    -fx-border-width: 1px;
+    -fx-background-insets: 0;
+}

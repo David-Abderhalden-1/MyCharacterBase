@@ -1,0 +1,11 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="Controller.MyCharacterBaseStartseiteMainController" alignment="center" spacing="20"
+      stylesheets="/GUI/css/Startwindow__Startseite__Scene.css">
+
+    <Label fx:id="welcome_label" styleClass="title">Welcome to Character Base!</Label>
+    <Button fx:id="person_mask_button" styleClass="person_mask_button" onAction="#chooseActionScene">Personen Maske
+    </Button>
+</VBox>

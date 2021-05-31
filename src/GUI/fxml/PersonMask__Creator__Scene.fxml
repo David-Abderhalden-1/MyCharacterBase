@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml"
+          xmlns="http://javafx.com/javafx"
+          fx:controller="Controller.PersonMaskCreatorSceneController"
+          alignment="CENTER" hgap="10" vgap="8"
+          stylesheets="/GUI/css/Personmask__Creator__Scene.css">
+
+    <padding>
+        <Insets top="10" right="20" bottom="10" left="20"/>
+    </padding>
+
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="0" fx:id="prenameField"
+               GridPane.columnSpan="3" GridPane.rowSpan="1" promptText="*Vorname"/>
+
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="sirnameField"
+               GridPane.columnSpan="3" GridPane.rowSpan="1" promptText="*Nachname"/>
+
+
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="dayField" promptText="*dd"/>
+
+    <TextField GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="monthField" promptText="*MM"/>
+
+    <TextField GridPane.columnIndex="3" GridPane.rowIndex="2" fx:id="yearField" promptText="*yyyy"/>
+
+
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="religionField"
+               GridPane.columnSpan="3" GridPane.rowSpan="1" promptText="Religion"/>
+
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="notesField"
+               GridPane.columnSpan="3" GridPane.rowSpan="1" promptText="Notes"/>
+
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="password"
+               GridPane.columnSpan="3" GridPane.rowSpan="1" promptText="Password" styleClass="password"/>
+
+    <Button GridPane.columnIndex="1" GridPane.rowIndex="6" fx:id="backButton" onAction="#back" text="Zurück"/>
+
+    <Button GridPane.columnIndex="3" GridPane.rowIndex="6" fx:id="addButton" onAction="#add_person" text="Create"/>
+
+</GridPane>

@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Quicksand SemiBold';
+    src: url('fonts/Quicksand_SemiBold.ttf');
+}
+
+.root {
+    -fx-background-color: #383838;
+    -fx-font-family: 'Quicksand SemiBold', sans-serif, bold;
+    -fx-font-size: 14px;
+}
+
+
+.text-field {
+    -fx-prompt-text-fill: rgb(177, 177, 177);
+    -fx-pref-width: 70px;
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+    -fx-text-box-border: #FFBB6B;
+}
+
+.text-field:focused {
+    -fx-focus-color: #ff9c2a;
+    -fx-faint-focus-color: #ff9c2a31;
+    -fx-control-inner-background: #ffefdc;
+}
+
+.button {
+    -fx-pref-width: 90px;
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+    -fx-background-color: #ffc788;
+    -fx-border-color: #222222;
+    -fx-border-width: 1px;
+    -fx-background-insets: 0;
+}
+
+.button:hover {
+    -fx-border-color: #222222;
+    -fx-background-color: #ffab4b;
+    -fx-border-width: 1px;
+    -fx-background-insets: 0;
+}
+
+.label#warning {
+    -fx-font-size: 11px;
+    -fx-text-fill: red;
+}
+
+.label.information {
+    -fx-font-size: 11px;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view:empty{
+    -fx-text-fill: transparent;
+
+}
+
+.table-view {
+    -fx-background-color: #383838;
+    -fx-table-header-border-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+    -fx-pref-height: 0px;
+}
+
+.table-row-cell {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:filled {
+    -fx-border-radius: 3px;
+    -fx-border-color: #b4701f;
+    -fx-background-color: transparent;
+}
+
+.table-column#Content {
+    -fx-pref-height: 70px;
+    -fx-text-fill: white;
+    -fx-padding: 5px 0px 0px 20px;
+}
+
+.table-column#Buttons {
+    -fx-padding: 20px 0px 0px 20px;
+}
+
+.table-view:focused .table-row-cell:focused {
+    -fx-table-cell-border-color: transparent;
+}
+
+.RightPane{
+    -fx-background-color: #404040;
+}
